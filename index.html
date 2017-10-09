@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript" src="js/number.js"></script>
+<script type="text/javascript">
+//    var arr1=[1,2,4,2,5,6,4];
+//    function fn(arr){
+//        var brr=[];
+//        for(var i=0;i< arr.length;i++){
+//            if(brr.indexOf(arr[i])==-1){
+//                brr.push(arr[i])
+//            }
+//        }
+//        return brr;
+//    }
+//   console.log(fn(arr1));
+
+    var arr2=[2,3,4,8,9,2,5];
+    function fns(arr){
+        var brr=[];
+        for(var i=0;i<arr.length;i++){
+            if(brr.lastIndexOf(arr[i])==-1){
+                brr.push(arr[i])
+            }
+        }
+        return brr;
+    }
+    console.log(fns(arr2));
+</script>
+</body>
+</html>
